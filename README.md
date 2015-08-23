@@ -13,7 +13,7 @@ Visit the product link above for tutorials and wiring diagrams.
 
 Written by Anton G. Mueckl (amueckl@chartup.de) for chartup.com System Engineering GmbH.
 
-BSD license, all text above must be included in any redistribution.
+MIT license, all text above must be included in any redistribution.
 
 To download click the DOWNLOAD ZIP button, rename the uncompressed folder chartup_I2CEEPROM.
  
