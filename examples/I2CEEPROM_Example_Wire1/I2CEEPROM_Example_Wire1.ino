@@ -44,11 +44,9 @@ const unsigned int bytes_to_write = 1000;
 
 int thisByte = 33; // code of first visible ASCII character ('!')
 
-chartup_I2CEEPROM i2ceeprom(1, 7);
-
-
 void setup() {
 	Serial.begin(19200);
+	chartup_I2CEEPROM i2ceeprom(1, 7);
 	delay(3000);			// wait for the interface to get ready
 	Serial.print("Write ");
 	Serial.print(bytes_to_write);
